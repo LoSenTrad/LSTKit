@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSTKit'
-  s.version          = '0.1.08141707'
+  s.version          = '0.1.08141715'
   s.summary          = 'A short description of LSTKit.'
 
 # This description is used to generate tags and improve search results.
