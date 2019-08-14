@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSTKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.08141707'
   s.summary          = 'A short description of LSTKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/490790096@qq.com/LSTKit'
+  s.homepage         = 'https://github.com/LoSenTrad/LSTKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '490790096@qq.com' => 'LoSenTrad@163.com' }
-  s.source           = { :git => 'https://github.com/490790096@qq.com/LSTKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LoSenTrad/LSTKit', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LSTKit/Classes/**/*'
+  #s.source_files = 'LSTKit/Classes/**/*'
+  
+  s.default_subspec = 'Code'
+  
+  s.subspec 'Code' do |code|
+      code.source_files = 'LSTKit/Classes/Code/**/*'
+      #core.public_header_files = 'ZFPlayer/Classes/Core/**/*.h'
+      code.frameworks = 'UIKit'
+  end
   
   # s.resource_bundles = {
   #   'LSTKit' => ['LSTKit/Assets/*.png']

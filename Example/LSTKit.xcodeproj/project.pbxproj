@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313D6EA6230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D6EA5230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313D6EA4230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		313D6EA5230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LSTKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,14 +60,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6091134ED8D7341ABF987648 /* Pods_LSTKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSTKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D175E3C33BDF9C783065B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		69D175E3C33BDF9C783065B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71854BCA90AF4CA641526BD3 /* Pods-LSTKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EE414247E4EE864949C768 /* Pods_LSTKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSTKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E8FB8ED428DEB0D005F9F6 /* Pods-LSTKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LSTKit_Tests/Pods-LSTKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A253E6123F6C0668AD303352 /* LSTKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LSTKit.podspec; path = ../LSTKit.podspec; sourceTree = "<group>"; };
-		B819CEB8B533E04363D7840B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A253E6123F6C0668AD303352 /* LSTKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSTKit.podspec; path = ../LSTKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B819CEB8B533E04363D7840B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C7D9AB54E3349A9DB89C951E /* Pods-LSTKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D305D4A520A2CDEC72261308 /* Pods-LSTKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LSTKit_Tests/Pods-LSTKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313D6EA3230407C300A7E1B8 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				313D6EA4230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.h */,
+				313D6EA5230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m */,
+			);
+			name = Code;
+			path = ../../LSTKit/Classes/Code;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +145,7 @@
 		6003F593195388D20070C39A /* Example for LSTKit */ = {
 			isa = PBXGroup;
 			children = (
+				313D6EA3230407C300A7E1B8 /* Code */,
 				6003F59C195388D20070C39A /* LSTAppDelegate.h */,
 				6003F59D195388D20070C39A /* LSTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +207,6 @@
 				A0E8FB8ED428DEB0D005F9F6 /* Pods-LSTKit_Tests.debug.xcconfig */,
 				D305D4A520A2CDEC72261308 /* Pods-LSTKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +271,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* LSTAppDelegate.m in Sources */,
+				313D6EA6230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LSTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
