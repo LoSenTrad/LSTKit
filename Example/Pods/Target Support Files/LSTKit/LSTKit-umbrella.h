@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LSTWeakScriptMessageDelegate.h"
 
 FOUNDATION_EXPORT double LSTKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSTKitVersionString[];

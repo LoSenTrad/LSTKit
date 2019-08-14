@@ -1,9 +1,9 @@
 {
   "name": "LSTKit",
-  "version": "0.1.0",
+  "version": "0.1.08141715",
   "summary": "A short description of LSTKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/490790096@qq.com/LSTKit",
+  "homepage": "https://github.com/LoSenTrad/LSTKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "490790096@qq.com": "LoSenTrad@163.com"
   },
   "source": {
-    "git": "https://github.com/490790096@qq.com/LSTKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/LoSenTrad/LSTKit",
+    "tag": "0.1.08141715"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LSTKit/Classes/**/*"
+  "default_subspecs": "Code",
+  "subspecs": [
+    {
+      "name": "Code",
+      "source_files": "LSTKit/Classes/Code/**/*",
+      "frameworks": "UIKit"
+    }
+  ]
 }

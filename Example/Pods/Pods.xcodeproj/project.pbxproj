@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E20D5F013D5AB8816F5A9FAFC424C12 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9F5B9C70FF528377F56BDD3E8B1AD1 /* ReplaceMe.m */; };
+		0227B83BB0AC8E750BBA5DF789B3DD70 /* LSTWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A938F9EB0C07021A6A194F956DA56AAA /* LSTWeakScriptMessageDelegate.m */; };
+		0EEA8849AC45184766AC2EEE59D831E0 /* LSTWeakScriptMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 456B242B12A7387C2C07699DC4212B91 /* LSTWeakScriptMessageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2245BBC466E80113763EAFDCF9B6A234 /* Pods-LSTKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBE3E55BC1AF24A873DA8DA5F0C51A0 /* Pods-LSTKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BD5E748F60103F173DFEB699411554C /* LSTKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8DDC29ABEFCBCCC5017CED4310BB55 /* LSTKit-dummy.m */; };
 		3DC93ECA93223C3478A3ACA7A0C0889B /* Pods-LSTKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904910E4D33747A23FCBD1FF5D39F08B /* Pods-LSTKit_Example-dummy.m */; };
 		50F20B142A0F13E40CF9C122029644FE /* Pods-LSTKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9119FF0CF2D1E210ECF31CB3F8FEF696 /* Pods-LSTKit_Tests-dummy.m */; };
-		54FDE45AA0D01510009421EE408F76C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BE6AF8A2B0B925C3AD8132511AF9A00B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C82547172D736518F27B17DFCF753316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E61954439789C809DFF5D609473662C7 /* LSTKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5146B8D1FCE5F90AA6A6A28AEFDBECD /* LSTKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FDE45AA0D01510009421EE408F76C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5B92F16777B2A76570FCB3F661A21C8D /* LSTKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8D361B131BEFE7032DEB6D63530BF6 /* LSTKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE795C4CDBFE3134A119DB00EE12291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		A0FEBD128FA20ADB0B6B517D192808DF /* LSTKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE997AEE0E54AB68F3BD3DEBA5601F41 /* LSTKit-dummy.m */; };
+		C82547172D736518F27B17DFCF753316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E0867DD31932C249751FF67C3FE16B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		E71654C4D09F5D3EEEB68AD1F1AAB2BB /* Pods-LSTKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B04A1E6A41F0A5858E49BEA750DFBDCC /* Pods-LSTKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,53 +40,56 @@
 
 /* Begin PBXFileReference section */
 		02CB508613EA3FBC9D035C9F6C0A7521 /* Pods-LSTKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		18B0FEDBCE2C9DF100AED6C8D9892C40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1C3E190AAF6FB356929AF1D61BA8BE0C /* Pods-LSTKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E18F60F78338C1286BA7D5F6DFF4A79 /* Pods-LSTKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		36FF659603727FCBFE4BADFD865296DD /* Pods_LSTKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSTKit_Tests.framework; path = "Pods-LSTKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E727420E4F0DC73CB05B718D398D9FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		456B242B12A7387C2C07699DC4212B91 /* LSTWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSTWeakScriptMessageDelegate.h; path = LSTKit/Classes/Code/LSTWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
 		474C45E1F8D0EF2783F8CD1504F4C7BC /* Pods_LSTKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSTKit_Example.framework; path = "Pods-LSTKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F7FEB5C7369179535293723FA798C1B /* LSTKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-prefix.pch"; sourceTree = "<group>"; };
+		4988E54E1E5AB8DF4738FC913ED382B1 /* LSTKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSTKit.modulemap; sourceTree = "<group>"; };
+		55ABA7AC4E3619C76CD72BEB6CD837FA /* LSTKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		70BE69CA208A3CC334A2146AF1CF0E02 /* Pods-LSTKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSTKit_Example.modulemap"; sourceTree = "<group>"; };
+		71054EDE99E906A7478CA525A38F186D /* LSTKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSTKit-Info.plist"; sourceTree = "<group>"; };
+		71DAE23CA8FFF28459F6F2BF9FACCDC3 /* LSTKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-prefix.pch"; sourceTree = "<group>"; };
+		7736CE7B7BE6DD33C303D4E0E8192C8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		79F94CE10DE50DFB31022A177C59A6F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7AA67C785929EF7E0898BD9D503C22CD /* Pods-LSTKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D8B7A6DC6977EA2F9C38AD1BA2C7D96 /* Pods-LSTKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Example-Info.plist"; sourceTree = "<group>"; };
 		8EBE3E55BC1AF24A873DA8DA5F0C51A0 /* Pods-LSTKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSTKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		904910E4D33747A23FCBD1FF5D39F08B /* Pods-LSTKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTKit_Example-dummy.m"; sourceTree = "<group>"; };
 		9119FF0CF2D1E210ECF31CB3F8FEF696 /* Pods-LSTKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA8DDC29ABEFCBCCC5017CED4310BB55 /* LSTKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTKit-dummy.m"; sourceTree = "<group>"; };
-		AC96654B88821C3906E79D455900295C /* LSTKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A938F9EB0C07021A6A194F956DA56AAA /* LSTWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSTWeakScriptMessageDelegate.m; path = LSTKit/Classes/Code/LSTWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
 		B04A1E6A41F0A5858E49BEA750DFBDCC /* Pods-LSTKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSTKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B098FA081C9B9A75A27A07B35CD21FFE /* Pods-LSTKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0A04BF72F483559FE18A5FD714D05C7 /* LSTKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSTKit-Info.plist"; sourceTree = "<group>"; };
+		BA8D361B131BEFE7032DEB6D63530BF6 /* LSTKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-umbrella.h"; sourceTree = "<group>"; };
+		BE997AEE0E54AB68F3BD3DEBA5601F41 /* LSTKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTKit-dummy.m"; sourceTree = "<group>"; };
 		C14E50117E66F9F99E33A42BCA5F2892 /* Pods-LSTKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD19752AC01A4AB040E077352CB56453 /* LSTKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSTKit.modulemap; sourceTree = "<group>"; };
 		D22FF69BAC98AA7B3115572C6F6E146B /* Pods-LSTKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		D5146B8D1FCE5F90AA6A6A28AEFDBECD /* LSTKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-umbrella.h"; sourceTree = "<group>"; };
-		E17990EE29E218C70CEA485DDD789DF5 /* LSTKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTKit.xcconfig; sourceTree = "<group>"; };
+		DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTKit.xcconfig; sourceTree = "<group>"; };
 		F319C7862E3F64693244C50A3EBEF7A1 /* Pods-LSTKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSTKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F6D227A7970AFE601002B8ADB31A30D7 /* Pods-LSTKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F96BB066C683338E63B694CE09A2AE85 /* LSTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSTKit.framework; path = LSTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABD4AF6C6AA6CF818056A4B52622CA6 /* Pods-LSTKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC2100C125559A9E48FF689459606A39 /* Pods-LSTKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSTKit_Tests.modulemap"; sourceTree = "<group>"; };
-		FE9F5B9C70FF528377F56BDD3E8B1AD1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LSTKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		261CF50E93CB75B22D92727F6B56A402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE795C4CDBFE3134A119DB00EE12291 /* Foundation.framework in Frameworks */,
+				E0867DD31932C249751FF67C3FE16B13 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AE8A942868ACC404F81B6A89C6C8E5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				54FDE45AA0D01510009421EE408F76C4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F3B641FD6086FFD1AFD5079AD799519 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6AF8A2B0B925C3AD8132511AF9A00B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +104,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		771D741FF538EAB624B5BF4DFFDFDEAC /* Pod */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E727420E4F0DC73CB05B718D398D9FB /* LICENSE */,
-				AC96654B88821C3906E79D455900295C /* LSTKit.podspec */,
-				18B0FEDBCE2C9DF100AED6C8D9892C40 /* README.md */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22EB6FA5DF243FB5FB96C0CB1CDAF2A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4988E54E1E5AB8DF4738FC913ED382B1 /* LSTKit.modulemap */,
+				DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */,
+				BE997AEE0E54AB68F3BD3DEBA5601F41 /* LSTKit-dummy.m */,
+				71054EDE99E906A7478CA525A38F186D /* LSTKit-Info.plist */,
+				71DAE23CA8FFF28459F6F2BF9FACCDC3 /* LSTKit-prefix.pch */,
+				BA8D361B131BEFE7032DEB6D63530BF6 /* LSTKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LSTKit";
+			sourceTree = "<group>";
+		};
+		5F4E980FBCF0E5A927BC1E6DF70383B1 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				456B242B12A7387C2C07699DC4212B91 /* LSTWeakScriptMessageDelegate.h */,
+				A938F9EB0C07021A6A194F956DA56AAA /* LSTWeakScriptMessageDelegate.m */,
+			);
+			name = Code;
 			sourceTree = "<group>";
 		};
 		85794C93665E95C920C3982B433CFEEF /* Targets Support Files */ = {
@@ -118,6 +144,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A55B16A51305D78012D10878ABF22CF5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7736CE7B7BE6DD33C303D4E0E8192C8D /* LICENSE */,
+				55ABA7AC4E3619C76CD72BEB6CD837FA /* LSTKit.podspec */,
+				79F94CE10DE50DFB31022A177C59A6F3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		B5E62C5E10D5968BE28C43827F5E3D4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,14 +162,6 @@
 				36FF659603727FCBFE4BADFD865296DD /* Pods_LSTKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C1CF2ED92E27F868C47B279F68BEC031 /* Pods-LSTKit_Tests */ = {
@@ -157,43 +185,30 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				F9D4D4D973F8E478280529E1A557A8B8 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				B5E62C5E10D5968BE28C43827F5E3D4D /* Products */,
 				85794C93665E95C920C3982B433CFEEF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D250E4248F2DF375B48690A890CCEF94 /* LSTKit */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D363D32C6D5BAC5358AF9179F987A476 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD19752AC01A4AB040E077352CB56453 /* LSTKit.modulemap */,
-				E17990EE29E218C70CEA485DDD789DF5 /* LSTKit.xcconfig */,
-				AA8DDC29ABEFCBCCC5017CED4310BB55 /* LSTKit-dummy.m */,
-				B0A04BF72F483559FE18A5FD714D05C7 /* LSTKit-Info.plist */,
-				6F7FEB5C7369179535293723FA798C1B /* LSTKit-prefix.pch */,
-				D5146B8D1FCE5F90AA6A6A28AEFDBECD /* LSTKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LSTKit";
-			sourceTree = "<group>";
-		};
-		DF5024D93065F871F6F8F593C4486EA5 /* LSTKit */ = {
-			isa = PBXGroup;
-			children = (
-				FE9F5B9C70FF528377F56BDD3E8B1AD1 /* ReplaceMe.m */,
-				771D741FF538EAB624B5BF4DFFDFDEAC /* Pod */,
-				D363D32C6D5BAC5358AF9179F987A476 /* Support Files */,
+				5F4E980FBCF0E5A927BC1E6DF70383B1 /* Code */,
+				A55B16A51305D78012D10878ABF22CF5 /* Pod */,
+				22EB6FA5DF243FB5FB96C0CB1CDAF2A8 /* Support Files */,
 			);
 			name = LSTKit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E4A7375353DC56C79DA1CE8014826A9F /* Pods-LSTKit_Example */ = {
@@ -216,7 +231,7 @@
 		F9D4D4D973F8E478280529E1A557A8B8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF5024D93065F871F6F8F593C4486EA5 /* LSTKit */,
+				D250E4248F2DF375B48690A890CCEF94 /* LSTKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -224,11 +239,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6455E625F46ADA00EC0CD49E938DE2FB /* Headers */ = {
+		061DE360F91D8C7F7413806434FAD401 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61954439789C809DFF5D609473662C7 /* LSTKit-umbrella.h in Headers */,
+				5B92F16777B2A76570FCB3F661A21C8D /* LSTKit-umbrella.h in Headers */,
+				0EEA8849AC45184766AC2EEE59D831E0 /* LSTWeakScriptMessageDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +269,12 @@
 /* Begin PBXNativeTarget section */
 		07D5A1E14242A20A290CEAC41C9625F3 /* LSTKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B39EA2B42C4F5C640F213CBE37489E7 /* Build configuration list for PBXNativeTarget "LSTKit" */;
+			buildConfigurationList = 98F52E8FE988A9C653E1EE596B56E82D /* Build configuration list for PBXNativeTarget "LSTKit" */;
 			buildPhases = (
-				6455E625F46ADA00EC0CD49E938DE2FB /* Headers */,
-				340F5B30201C74438DD82523762DC70E /* Sources */,
-				7F3B641FD6086FFD1AFD5079AD799519 /* Frameworks */,
-				82BB6BE352CBD39657053E2493D80E5A /* Resources */,
+				061DE360F91D8C7F7413806434FAD401 /* Headers */,
+				E06AF856577728E3521B64DC724F0291 /* Sources */,
+				261CF50E93CB75B22D92727F6B56A402 /* Frameworks */,
+				5F2BB2F125CD11E43C3C8C34461AE9B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +352,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		82BB6BE352CBD39657053E2493D80E5A /* Resources */ = {
+		5F2BB2F125CD11E43C3C8C34461AE9B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,15 +376,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		340F5B30201C74438DD82523762DC70E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BD5E748F60103F173DFEB699411554C /* LSTKit-dummy.m in Sources */,
-				1E20D5F013D5AB8816F5A9FAFC424C12 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		723C0E085E76485893B521E0F09377AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +389,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F20B142A0F13E40CF9C122029644FE /* Pods-LSTKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06AF856577728E3521B64DC724F0291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FEBD128FA20ADB0B6B517D192808DF /* LSTKit-dummy.m in Sources */,
+				0227B83BB0AC8E750BBA5DF789B3DD70 /* LSTWeakScriptMessageDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,38 +476,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		587ECD4A08970986D3062CDD51EE7E80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E17990EE29E218C70CEA485DDD789DF5 /* LSTKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSTKit/LSTKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSTKit/LSTKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSTKit/LSTKit.modulemap";
-				PRODUCT_MODULE_NAME = LSTKit;
-				PRODUCT_NAME = LSTKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -592,9 +576,9 @@
 			};
 			name = Debug;
 		};
-		CC2865767378A794F0D3313BF3479F90 /* Debug */ = {
+		CC95015C3D0D381EA8063418DA29AAF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E17990EE29E218C70CEA485DDD789DF5 /* LSTKit.xcconfig */;
+			baseConfigurationReference = DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -618,10 +602,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D9D825E6461375D0A4DE4EDFFF9D4BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -691,6 +676,37 @@
 			};
 			name = Release;
 		};
+		EEE1FA16F9C7314F5A3269E630425F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTKit/LSTKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSTKit/LSTKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSTKit/LSTKit.modulemap";
+				PRODUCT_MODULE_NAME = LSTKit;
+				PRODUCT_NAME = LSTKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		FE856DD8681C4AA9124415F3AEDDCA49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C14E50117E66F9F99E33A42BCA5F2892 /* Pods-LSTKit_Tests.debug.xcconfig */;
@@ -736,20 +752,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B39EA2B42C4F5C640F213CBE37489E7 /* Build configuration list for PBXNativeTarget "LSTKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC2865767378A794F0D3313BF3479F90 /* Debug */,
-				587ECD4A08970986D3062CDD51EE7E80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F52E8FE988A9C653E1EE596B56E82D /* Build configuration list for PBXNativeTarget "LSTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE1FA16F9C7314F5A3269E630425F7E /* Debug */,
+				CC95015C3D0D381EA8063418DA29AAF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

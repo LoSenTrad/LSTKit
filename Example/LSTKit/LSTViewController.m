@@ -7,6 +7,7 @@
 //
 
 #import "LSTViewController.h"
+#import <LSTWeakScriptMessageDelegate.h>
 
 @interface LSTViewController ()
 

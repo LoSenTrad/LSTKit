@@ -1,5 +1,7 @@
 PODS:
-  - LSTKit (0.1.0)
+  - LSTKit (0.1.08141715):
+    - LSTKit/Code (= 0.1.08141715)
+  - LSTKit/Code (0.1.08141715)
 
 DEPENDENCIES:
   - LSTKit (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LSTKit: 791a061be3dde9858a3cc6ab6ed64dbc72962226
+  LSTKit: f754a868f99ef3ff26de0ab61ffa9c65dc61e50e
 
 PODFILE CHECKSUM: 9664b802c360959985fe332696ffa76c8ff5121d
 
