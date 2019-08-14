@@ -19,6 +19,11 @@
     "ios": "8.0"
   },
   "default_subspecs": "Code",
+  "dependencies": {
+    "LSTCategory": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "Code",

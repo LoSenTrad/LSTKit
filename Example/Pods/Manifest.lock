@@ -1,17 +1,27 @@
 PODS:
+  - LSTCategory (0.1.08141732):
+    - LSTCategory/Code (= 0.1.08141732)
+  - LSTCategory/Code (0.1.08141732)
   - LSTKit (0.1.08141715):
+    - LSTCategory
     - LSTKit/Code (= 0.1.08141715)
-  - LSTKit/Code (0.1.08141715)
+  - LSTKit/Code (0.1.08141715):
+    - LSTCategory
 
 DEPENDENCIES:
   - LSTKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LSTCategory
 
 EXTERNAL SOURCES:
   LSTKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LSTKit: f754a868f99ef3ff26de0ab61ffa9c65dc61e50e
+  LSTCategory: a35cc25652e0c5ec2144cd043256d7127671f217
+  LSTKit: fbbe2b5cb7792cb5e92458d6879197b9334b4d67
 
 PODFILE CHECKSUM: 9664b802c360959985fe332696ffa76c8ff5121d
 

@@ -7,18 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0227B83BB0AC8E750BBA5DF789B3DD70 /* LSTWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A938F9EB0C07021A6A194F956DA56AAA /* LSTWeakScriptMessageDelegate.m */; };
-		0EEA8849AC45184766AC2EEE59D831E0 /* LSTWeakScriptMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 456B242B12A7387C2C07699DC4212B91 /* LSTWeakScriptMessageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2245BBC466E80113763EAFDCF9B6A234 /* Pods-LSTKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBE3E55BC1AF24A873DA8DA5F0C51A0 /* Pods-LSTKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DC93ECA93223C3478A3ACA7A0C0889B /* Pods-LSTKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904910E4D33747A23FCBD1FF5D39F08B /* Pods-LSTKit_Example-dummy.m */; };
+		047C3BAB423A2FF335CFC8DA385E6038 /* UIImage+LSTImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DA0D932C14CC913B889606FF1488DE /* UIImage+LSTImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06A4F03C26714938C068F2B59695AE56 /* LSTCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 521497E5AE8B49A8113789A601CE3F81 /* LSTCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0898CFF774BAEE1DEBAB612B9D2A833E /* JMNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712FBB412432B749FE4176F1A1F9100 /* JMNumberButton.m */; };
+		093DD3B2620AA0A71954FE7DEE06C8D9 /* LSTKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 720DEFDE47F5EB6E39F4AE4015A4BDD3 /* LSTKit-dummy.m */; };
+		0C02B3E20BF9A9F193793983B4E71665 /* UIProgressView+LSTWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 581A415E0F644C54CBF5875387B43D0E /* UIProgressView+LSTWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3B444A47D89D8F5B18F4A5E2E8166D /* JMWaveButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF75E2E1C071214A5837746332CD660 /* JMWaveButtonConfig.m */; };
+		2201BA06E801A8143F3A86DCD73F32DC /* LSTCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF2F980CB2A8B255DCEB04772D38A04 /* LSTCategory-dummy.m */; };
+		250DE3D9FCC00DCCDC988E91640BC201 /* JMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC075AF056FCD7FFF3DEF03EADB1EF4 /* JMButton.m */; };
+		2596B8461BDC499BDBAAA82BE11741BF /* JMBaseButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1BF235F4C96D4D27D1943D755276E /* JMBaseButton+CountDown.m */; };
+		26764DA3085A267968E74E969CB598B5 /* CALayer+LSTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C9299CFB464C4918F8F785230F6E21 /* CALayer+LSTLayer.m */; };
+		29CAA5AB92A16C6CD979FA61D657BD6B /* JMWaveButtonConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8D23114354D5F170C9C67C58996E87 /* JMWaveButtonConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B193D7A1B5673090D72058A377FD855 /* JMBaseButtonConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDFA4F0177B47FB854A6D2F4A9E30BD /* JMBaseButtonConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E19015D67C89BF88930C57443976701 /* JMRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = B802EAA53CB27090687C524FF5EB5F63 /* JMRuntime.m */; };
+		2E8E6BA237814D7C5C4700EB0B5CBCCD /* JMBootstrapButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5794D21A93344E0C404F9D4A0D6BF4BE /* JMBootstrapButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374A9CE6F090F62E16405ABA861C2797 /* UIColor+LSTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F8012C7BF2A960292E6A4A57077C671B /* UIColor+LSTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D589560437EBB55F4E06AC97FDA3E98 /* UIView+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E7C13A0175701D824C2FA523DDB053 /* UIView+JM.m */; };
+		4097D860053AD91F50C98B3C8CCDE7E2 /* JMBaseButton+CountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB4934385AF31D98629320A3383BEC1 /* JMBaseButton+CountDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4687B1A6395D4F16800D9B2B073D3D30 /* LSTWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A0016A6550E352581DA975577714AD /* LSTWeakScriptMessageDelegate.m */; };
 		50F20B142A0F13E40CF9C122029644FE /* Pods-LSTKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9119FF0CF2D1E210ECF31CB3F8FEF696 /* Pods-LSTKit_Tests-dummy.m */; };
-		54FDE45AA0D01510009421EE408F76C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		5B92F16777B2A76570FCB3F661A21C8D /* LSTKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8D361B131BEFE7032DEB6D63530BF6 /* LSTKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FE795C4CDBFE3134A119DB00EE12291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		A0FEBD128FA20ADB0B6B517D192808DF /* LSTKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE997AEE0E54AB68F3BD3DEBA5601F41 /* LSTKit-dummy.m */; };
-		C82547172D736518F27B17DFCF753316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		E0867DD31932C249751FF67C3FE16B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		5411FD6C7E6FA0B8E2C557AF6EC3345B /* JMButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA67B4AE58BC209CD939FD02D3731EA /* JMButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5505A3C704FC212E0105F954362CC85E /* JMBootstrapButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C89F3ECED09CCD0CC393856D9DFC954 /* JMBootstrapButtonConfig.m */; };
+		5920EAEFA77722F1D17BC1EF6B57BA67 /* UIView+LSTView.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A8FC76EA380EFFA4BDCC3C809D6D8 /* UIView+LSTView.m */; };
+		5B7A91DD90FFDDDB756D7DBAA21DED7C /* JMRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F43828A22A15C1EDE67EFDD114910D47 /* JMRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F44F3FC4CBD2D17CF85BF620C672CEC /* JMWaveButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A3B86BB2D29DC5C39707BB72E7AF0C /* JMWaveButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F7816242E4822317E315C9E6F6BC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29402B8D5C00FEC6CD635E41B7398669 /* Foundation.framework */; };
+		680785252C65C5543D27DEA56B6C3C00 /* CALayer+LSTLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9DEC4820E4CEC0B80AFE579B95AA65 /* CALayer+LSTLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E89700DE47096C41408BC4614BD1401 /* LSTWeakScriptMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E206DC60C624296432E9FF2A37777 /* LSTWeakScriptMessageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F474F018BB4D96C07C3F4A3C4BAFF7C /* JMRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F923AA5A8E2EEC081F16E47DB878A4 /* JMRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		742FA9AC2A3ABA5E7908B1C205789344 /* UIColor+JM.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F7081BB121F7DC2E0F53E836E35F62 /* UIColor+JM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6461B7B71151C57BB0FC19451570AF /* JMNumberButtonConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E739C63307D79125F8118C37FF41828 /* JMNumberButtonConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F4C0291271B571756B34FED6AF1DA1 /* JMBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAFF5775BCDFBFCE3FD31169C6BF5FD /* JMBadgeValue.m */; };
+		8234276FA43E2D7AEAB28460D475DAAF /* JMNumberButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AF780877CB8B64EEFC1ACE627B8DF2 /* JMNumberButtonConfig.m */; };
+		85AB1A564249400D7DA50DDE2306C264 /* JMBootstrapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560AC7C61116D3A9B19A2E798DF04E7 /* JMBootstrapButton.m */; };
+		85E0D94529A1920D17C8718139E89E5E /* NSString+LSTString.h in Headers */ = {isa = PBXBuildFile; fileRef = B82C8C0459E0410994E16950AC1AA7A0 /* NSString+LSTString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860BA2799AA250FE5006E359681A247B /* NSArray+LSTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 8893AF59C4598BE9B3BE932FB901F83F /* NSArray+LSTArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95552569B4A36C3F4FC8E6BD26D9FB31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAA0290650557675CE450F8BC342BD6 /* UIKit.framework */; };
+		98352203ABD221AD694334A6F0A99788 /* UIView+JM.h in Headers */ = {isa = PBXBuildFile; fileRef = 49ACA8A31D33A65BF29496AA6CEF4B47 /* UIView+JM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B999908B4E6A74DBDF61082975C2379 /* UIProgressView+LSTWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2964AE229CD2B78A29AAF2066BA /* UIProgressView+LSTWebViewProgress.m */; };
+		A87EC751C9E35B5A4D912879D9E4275E /* LSTKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1344628984440646EDD2D580986F20 /* LSTKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD7F31E0A7ED1575CF24198E2F0494DC /* NSObject+LSTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 055B8EB05E714E287515EEF6FAD6FA1A /* NSObject+LSTObject.m */; };
+		AE7DC5CC90CA3D6B82DC642C5481C589 /* JMRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B7BC25CEA6DB0E945D6F9296C305CA /* JMRadioButton.m */; };
+		B0FA0E7239699E67FAA0132DE890948C /* Pods-LSTKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904910E4D33747A23FCBD1FF5D39F08B /* Pods-LSTKit_Example-dummy.m */; };
+		B4361B7062612217968FC8B5554A5215 /* JMBaseButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC530A1394B3B8B9FE0100DC4617C1C /* JMBaseButtonConfig.m */; };
+		B5DC07F6302ECE1C10C8B90AD8F25014 /* UIColor+LSTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC68F6A8AD2872F87EFC111408838A4 /* UIColor+LSTColor.m */; };
+		BA5A2D51E8F38B4F0CDDEFEB644FFA4C /* NSArray+LSTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 146590192CB58CA820124BCAA3040709 /* NSArray+LSTArray.m */; };
+		BC613F502A0EC5FF2B06A4FFF7F3DDE6 /* NSString+LSTString.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DF668DBC9FF3D8ADE8986C9AE3D59E /* NSString+LSTString.m */; };
+		BE82215F5563F286E3B67685A0941915 /* JMWaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C46AC8F8BFFDD4E7999973C11AD8AC /* JMWaveButton.m */; };
+		C2F3C8B3947CD9773804C647D09D4140 /* LSTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D041608DC8E07B540017167CC75119 /* LSTButton.m */; };
+		C3C2A9021F65E52604A7352439131A06 /* JMBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA85A481BD7D27A3AF46B86FDB36AFF /* JMBaseButton.m */; };
+		C442F149638A2000A756DE1B41CEFA66 /* NSObject+LSTObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D150B096A5FC1E1E3830C130582545 /* NSObject+LSTObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C47921D09C67B7CEB4503A1AE2FDCB7A /* JMBootstrapButtonConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1747B6888C2BD7108EAA76B526166469 /* JMBootstrapButtonConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C676D8DF5499F926098CB0B3563B8ADB /* Pods-LSTKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBE3E55BC1AF24A873DA8DA5F0C51A0 /* Pods-LSTKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82547172D736518F27B17DFCF753316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29402B8D5C00FEC6CD635E41B7398669 /* Foundation.framework */; };
+		C8762450E68604F858107BB99543C0F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAA0290650557675CE450F8BC342BD6 /* UIKit.framework */; };
+		CDE92F39708A2FE2136530517DA6E6E6 /* JMNumberButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1085114F46EE93E39A14C56F8C9031CF /* JMNumberButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA7685FC3971C0C77101056D466FFE2 /* JMBadgeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 897C2C4772A3A8DBC15F8CCB89A0E6D6 /* JMBadgeValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D182208623C9CA21A2E018590DABD755 /* JMBaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7C33E1752ACDC2F14559D53BC653AE /* JMBaseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A6FE94C88C3A21C41354CD2800A62F /* LSTCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64902A98D10AF34FD9D0B824A702E62C /* LSTCategory.framework */; };
+		D82AF25F13BDE5DFCE733DED1A7FAD81 /* JMButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B0AD01D53CDE17CAAD30C90DA7F4E4 /* JMButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0747AEE02F372E4BADFC13CCD681D15 /* UIView+LSTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E6F068BB7452B6939E18E69A2CFDB0 /* UIView+LSTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E71654C4D09F5D3EEEB68AD1F1AAB2BB /* Pods-LSTKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B04A1E6A41F0A5858E49BEA750DFBDCC /* Pods-LSTKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80FD4AB4B99F1CA391A206EFE48FF30 /* LSTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 358F5E5A0781ECFDE2713D276CE0AA2D /* LSTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED327566EAABC4BD218369D3BC42CF7F /* UIImage+LSTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F5DCF84EC5036E89AAEC143AF03C5 /* UIImage+LSTImage.m */; };
+		F029078408AC8623B489A04FEEAC9EFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29402B8D5C00FEC6CD635E41B7398669 /* Foundation.framework */; };
+		F4D14B8C0F3A7C514C6A2EC3B9444B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29402B8D5C00FEC6CD635E41B7398669 /* Foundation.framework */; };
+		F689F4E3E4319C8D505E8282266A62D4 /* JMDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BA0447F72D931194E127FC8A19DC07 /* JMDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7001C550477AAE93DA94B13E6620199 /* UIColor+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = 52187F75690733ACF90A8CE80D37116F /* UIColor+JM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +84,21 @@
 			remoteGlobalIDString = D3754840DBF6422BFE86513E83213C35;
 			remoteInfo = "Pods-LSTKit_Example";
 		};
-		B43254BB65E5E3FB3F3082B18D9B87EE /* PBXContainerItemProxy */ = {
+		76577021753D37E15FE68520BCBF2E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95632358D0525A520467DAAD7ECCA44A;
+			remoteInfo = LSTCategory;
+		};
+		A0E19A3E75CC58A45A11CEE7028B815F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95632358D0525A520467DAAD7ECCA44A;
+			remoteInfo = LSTCategory;
+		};
+		CE7F959057DD1F7A2078D680B8664C77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,57 +108,125 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DF668DBC9FF3D8ADE8986C9AE3D59E /* NSString+LSTString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LSTString.m"; path = "LSTCategory/Classes/Code/NSString+LSTString/NSString+LSTString.m"; sourceTree = "<group>"; };
 		02CB508613EA3FBC9D035C9F6C0A7521 /* Pods-LSTKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		055B8EB05E714E287515EEF6FAD6FA1A /* NSObject+LSTObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LSTObject.m"; path = "LSTCategory/Classes/Code/NSObject+LSTObject/NSObject+LSTObject.m"; sourceTree = "<group>"; };
+		0BAA0290650557675CE450F8BC342BD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0BC530A1394B3B8B9FE0100DC4617C1C /* JMBaseButtonConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMBaseButtonConfig.m; sourceTree = "<group>"; };
+		0CDFA4F0177B47FB854A6D2F4A9E30BD /* JMBaseButtonConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseButtonConfig.h; sourceTree = "<group>"; };
+		1085114F46EE93E39A14C56F8C9031CF /* JMNumberButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMNumberButton.h; sourceTree = "<group>"; };
+		146590192CB58CA820124BCAA3040709 /* NSArray+LSTArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LSTArray.m"; path = "LSTCategory/Classes/Code/NSArray+LSTArray/NSArray+LSTArray.m"; sourceTree = "<group>"; };
+		16C9299CFB464C4918F8F785230F6E21 /* CALayer+LSTLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+LSTLayer.m"; path = "LSTCategory/Classes/Code/CALayer+LSTLayer/CALayer+LSTLayer.m"; sourceTree = "<group>"; };
+		1747B6888C2BD7108EAA76B526166469 /* JMBootstrapButtonConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBootstrapButtonConfig.h; sourceTree = "<group>"; };
+		1965A0593BBC77836383625CE55B1E35 /* LSTCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSTCategory.modulemap; sourceTree = "<group>"; };
+		1BA85A481BD7D27A3AF46B86FDB36AFF /* JMBaseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMBaseButton.m; sourceTree = "<group>"; };
 		1C3E190AAF6FB356929AF1D61BA8BE0C /* Pods-LSTKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		237D0E5E32D1D648042AD11BF6D48259 /* LSTCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTCategory.xcconfig; sourceTree = "<group>"; };
+		2560AC7C61116D3A9B19A2E798DF04E7 /* JMBootstrapButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMBootstrapButton.m; sourceTree = "<group>"; };
+		27E6F068BB7452B6939E18E69A2CFDB0 /* UIView+LSTView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LSTView.h"; path = "LSTCategory/Classes/Code/UIView+LSTView/UIView+LSTView.h"; sourceTree = "<group>"; };
+		29402B8D5C00FEC6CD635E41B7398669 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		29C46AC8F8BFFDD4E7999973C11AD8AC /* JMWaveButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMWaveButton.m; sourceTree = "<group>"; };
+		2B8CA29006C366A706D14721868ADF44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2E18F60F78338C1286BA7D5F6DFF4A79 /* Pods-LSTKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2E739C63307D79125F8118C37FF41828 /* JMNumberButtonConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMNumberButtonConfig.h; sourceTree = "<group>"; };
+		2EA1BF235F4C96D4D27D1943D755276E /* JMBaseButton+CountDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMBaseButton+CountDown.m"; sourceTree = "<group>"; };
+		31F5C8B6B0B843210CA98E061C50ADCF /* LSTKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3282C7D6CAD2137E64481DE2BE81663F /* LSTKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSTKit.modulemap; sourceTree = "<group>"; };
+		358F5E5A0781ECFDE2713D276CE0AA2D /* LSTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSTButton.h; sourceTree = "<group>"; };
 		36FF659603727FCBFE4BADFD865296DD /* Pods_LSTKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSTKit_Tests.framework; path = "Pods-LSTKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		456B242B12A7387C2C07699DC4212B91 /* LSTWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSTWeakScriptMessageDelegate.h; path = LSTKit/Classes/Code/LSTWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		3C89F3ECED09CCD0CC393856D9DFC954 /* JMBootstrapButtonConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMBootstrapButtonConfig.m; sourceTree = "<group>"; };
+		3FF2CBD20CBB5F8D1D9912E9BEEA8613 /* LSTKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTKit.xcconfig; sourceTree = "<group>"; };
+		41AA433FA43E77D704EC20B2FC95920C /* LSTKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-prefix.pch"; sourceTree = "<group>"; };
 		474C45E1F8D0EF2783F8CD1504F4C7BC /* Pods_LSTKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSTKit_Example.framework; path = "Pods-LSTKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4988E54E1E5AB8DF4738FC913ED382B1 /* LSTKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSTKit.modulemap; sourceTree = "<group>"; };
-		55ABA7AC4E3619C76CD72BEB6CD837FA /* LSTKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSTKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48B7BC25CEA6DB0E945D6F9296C305CA /* JMRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMRadioButton.m; sourceTree = "<group>"; };
+		4970E2964AE229CD2B78A29AAF2066BA /* UIProgressView+LSTWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+LSTWebViewProgress.m"; path = "LSTCategory/Classes/Code/UIProgressView+LSTWebViewProgress/UIProgressView+LSTWebViewProgress.m"; sourceTree = "<group>"; };
+		49ACA8A31D33A65BF29496AA6CEF4B47 /* UIView+JM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JM.h"; sourceTree = "<group>"; };
+		4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* LSTCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSTCategory.framework; path = LSTCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D150B096A5FC1E1E3830C130582545 /* NSObject+LSTObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LSTObject.h"; path = "LSTCategory/Classes/Code/NSObject+LSTObject/NSObject+LSTObject.h"; sourceTree = "<group>"; };
+		521497E5AE8B49A8113789A601CE3F81 /* LSTCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTCategory-umbrella.h"; sourceTree = "<group>"; };
+		52187F75690733ACF90A8CE80D37116F /* UIColor+JM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JM.m"; sourceTree = "<group>"; };
+		54AF780877CB8B64EEFC1ACE627B8DF2 /* JMNumberButtonConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMNumberButtonConfig.m; sourceTree = "<group>"; };
+		5794D21A93344E0C404F9D4A0D6BF4BE /* JMBootstrapButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBootstrapButton.h; sourceTree = "<group>"; };
+		581A415E0F644C54CBF5875387B43D0E /* UIProgressView+LSTWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+LSTWebViewProgress.h"; path = "LSTCategory/Classes/Code/UIProgressView+LSTWebViewProgress/UIProgressView+LSTWebViewProgress.h"; sourceTree = "<group>"; };
+		64902A98D10AF34FD9D0B824A702E62C /* LSTCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LSTCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A3B86BB2D29DC5C39707BB72E7AF0C /* JMWaveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMWaveButton.h; sourceTree = "<group>"; };
+		67DA0D932C14CC913B889606FF1488DE /* UIImage+LSTImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LSTImage.h"; path = "LSTCategory/Classes/Code/UIImage +LSTImage/UIImage+LSTImage.h"; sourceTree = "<group>"; };
+		6EC68F6A8AD2872F87EFC111408838A4 /* UIColor+LSTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LSTColor.m"; path = "LSTCategory/Classes/Code/UIColor+LSTColor/UIColor+LSTColor.m"; sourceTree = "<group>"; };
 		70BE69CA208A3CC334A2146AF1CF0E02 /* Pods-LSTKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSTKit_Example.modulemap"; sourceTree = "<group>"; };
-		71054EDE99E906A7478CA525A38F186D /* LSTKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSTKit-Info.plist"; sourceTree = "<group>"; };
-		71DAE23CA8FFF28459F6F2BF9FACCDC3 /* LSTKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-prefix.pch"; sourceTree = "<group>"; };
-		7736CE7B7BE6DD33C303D4E0E8192C8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		79F94CE10DE50DFB31022A177C59A6F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		720DEFDE47F5EB6E39F4AE4015A4BDD3 /* LSTKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTKit-dummy.m"; sourceTree = "<group>"; };
+		74F7081BB121F7DC2E0F53E836E35F62 /* UIColor+JM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+JM.h"; sourceTree = "<group>"; };
 		7AA67C785929EF7E0898BD9D503C22CD /* Pods-LSTKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7B1344628984440646EDD2D580986F20 /* LSTKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-umbrella.h"; sourceTree = "<group>"; };
+		7B7C33E1752ACDC2F14559D53BC653AE /* JMBaseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBaseButton.h; sourceTree = "<group>"; };
+		8893AF59C4598BE9B3BE932FB901F83F /* NSArray+LSTArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LSTArray.h"; path = "LSTCategory/Classes/Code/NSArray+LSTArray/NSArray+LSTArray.h"; sourceTree = "<group>"; };
+		897C2C4772A3A8DBC15F8CCB89A0E6D6 /* JMBadgeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMBadgeValue.h; sourceTree = "<group>"; };
+		8C9DEC4820E4CEC0B80AFE579B95AA65 /* CALayer+LSTLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+LSTLayer.h"; path = "LSTCategory/Classes/Code/CALayer+LSTLayer/CALayer+LSTLayer.h"; sourceTree = "<group>"; };
 		8D8B7A6DC6977EA2F9C38AD1BA2C7D96 /* Pods-LSTKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Example-Info.plist"; sourceTree = "<group>"; };
 		8EBE3E55BC1AF24A873DA8DA5F0C51A0 /* Pods-LSTKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSTKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		904910E4D33747A23FCBD1FF5D39F08B /* Pods-LSTKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTKit_Example-dummy.m"; sourceTree = "<group>"; };
 		9119FF0CF2D1E210ECF31CB3F8FEF696 /* Pods-LSTKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSTKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		94BA0447F72D931194E127FC8A19DC07 /* JMDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMDefine.h; sourceTree = "<group>"; };
+		9712FBB412432B749FE4176F1A1F9100 /* JMNumberButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMNumberButton.m; sourceTree = "<group>"; };
+		98D041608DC8E07B540017167CC75119 /* LSTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSTButton.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A938F9EB0C07021A6A194F956DA56AAA /* LSTWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSTWeakScriptMessageDelegate.m; path = LSTKit/Classes/Code/LSTWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		A5FE2284E5E5BCCC6C286D6344F1C12D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A656699E2431D2299C7D03B2D2DE4AEA /* LSTKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSTKit-Info.plist"; sourceTree = "<group>"; };
+		A8B0AD01D53CDE17CAAD30C90DA7F4E4 /* JMButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMButton.h; sourceTree = "<group>"; };
+		ABC075AF056FCD7FFF3DEF03EADB1EF4 /* JMButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMButton.m; sourceTree = "<group>"; };
 		B04A1E6A41F0A5858E49BEA750DFBDCC /* Pods-LSTKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSTKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B098FA081C9B9A75A27A07B35CD21FFE /* Pods-LSTKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA8D361B131BEFE7032DEB6D63530BF6 /* LSTKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTKit-umbrella.h"; sourceTree = "<group>"; };
-		BE997AEE0E54AB68F3BD3DEBA5601F41 /* LSTKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTKit-dummy.m"; sourceTree = "<group>"; };
+		B38EF9A6F8656C20BAB74BF3D4E18F50 /* LSTCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSTCategory-prefix.pch"; sourceTree = "<group>"; };
+		B71E206DC60C624296432E9FF2A37777 /* LSTWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSTWeakScriptMessageDelegate.h; path = LSTKit/Classes/Code/LSTWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		B802EAA53CB27090687C524FF5EB5F63 /* JMRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMRuntime.m; sourceTree = "<group>"; };
+		B82C8C0459E0410994E16950AC1AA7A0 /* NSString+LSTString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LSTString.h"; path = "LSTCategory/Classes/Code/NSString+LSTString/NSString+LSTString.h"; sourceTree = "<group>"; };
+		BBF2F980CB2A8B255DCEB04772D38A04 /* LSTCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSTCategory-dummy.m"; sourceTree = "<group>"; };
+		BCB4934385AF31D98629320A3383BEC1 /* JMBaseButton+CountDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMBaseButton+CountDown.h"; sourceTree = "<group>"; };
 		C14E50117E66F9F99E33A42BCA5F2892 /* Pods-LSTKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA67B4AE58BC209CD939FD02D3731EA /* JMButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMButtons.h; sourceTree = "<group>"; };
+		CD2F5DCF84EC5036E89AAEC143AF03C5 /* UIImage+LSTImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LSTImage.m"; path = "LSTCategory/Classes/Code/UIImage +LSTImage/UIImage+LSTImage.m"; sourceTree = "<group>"; };
 		D22FF69BAC98AA7B3115572C6F6E146B /* Pods-LSTKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSTKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSTKit.xcconfig; sourceTree = "<group>"; };
+		DDAFF5775BCDFBFCE3FD31169C6BF5FD /* JMBadgeValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMBadgeValue.m; sourceTree = "<group>"; };
+		DDF75E2E1C071214A5837746332CD660 /* JMWaveButtonConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMWaveButtonConfig.m; sourceTree = "<group>"; };
+		E2F923AA5A8E2EEC081F16E47DB878A4 /* JMRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMRuntime.h; sourceTree = "<group>"; };
+		E3E7C13A0175701D824C2FA523DDB053 /* UIView+JM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+JM.m"; sourceTree = "<group>"; };
+		EC8D23114354D5F170C9C67C58996E87 /* JMWaveButtonConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMWaveButtonConfig.h; sourceTree = "<group>"; };
+		F05A8FC76EA380EFFA4BDCC3C809D6D8 /* UIView+LSTView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LSTView.m"; path = "LSTCategory/Classes/Code/UIView+LSTView/UIView+LSTView.m"; sourceTree = "<group>"; };
+		F2A0016A6550E352581DA975577714AD /* LSTWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSTWeakScriptMessageDelegate.m; path = LSTKit/Classes/Code/LSTWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
 		F319C7862E3F64693244C50A3EBEF7A1 /* Pods-LSTKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSTKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F43828A22A15C1EDE67EFDD114910D47 /* JMRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMRadioButton.h; sourceTree = "<group>"; };
 		F6D227A7970AFE601002B8ADB31A30D7 /* Pods-LSTKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSTKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8012C7BF2A960292E6A4A57077C671B /* UIColor+LSTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LSTColor.h"; path = "LSTCategory/Classes/Code/UIColor+LSTColor/UIColor+LSTColor.h"; sourceTree = "<group>"; };
 		F96BB066C683338E63B694CE09A2AE85 /* LSTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSTKit.framework; path = LSTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABD4AF6C6AA6CF818056A4B52622CA6 /* Pods-LSTKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSTKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC2100C125559A9E48FF689459606A39 /* Pods-LSTKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSTKit_Tests.modulemap"; sourceTree = "<group>"; };
+		FE1D272E15C3E4DF0D7130AB68216DA4 /* LSTCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSTCategory-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		261CF50E93CB75B22D92727F6B56A402 /* Frameworks */ = {
+		10F2C6F1BAB2DE74820DBA7B07292AE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE795C4CDBFE3134A119DB00EE12291 /* Foundation.framework in Frameworks */,
-				E0867DD31932C249751FF67C3FE16B13 /* UIKit.framework in Frameworks */,
+				62F7816242E4822317E315C9E6F6BC14 /* Foundation.framework in Frameworks */,
+				D1A6FE94C88C3A21C41354CD2800A62F /* LSTCategory.framework in Frameworks */,
+				95552569B4A36C3F4FC8E6BD26D9FB31 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AE8A942868ACC404F81B6A89C6C8E5A /* Frameworks */ = {
+		121D08461B7CD77BDFBFEF86D85E8072 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FDE45AA0D01510009421EE408F76C4 /* Foundation.framework in Frameworks */,
+				F029078408AC8623B489A04FEEAC9EFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA6569C931458D75046A8D2B3EC44D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D14B8C0F3A7C514C6A2EC3B9444B1F /* Foundation.framework in Frameworks */,
+				C8762450E68604F858107BB99543C0F7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,33 +241,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		20D4A1954368813200CE827811D9E10E /* BaseButton */ = {
 			isa = PBXGroup;
 			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+				7B7C33E1752ACDC2F14559D53BC653AE /* JMBaseButton.h */,
+				1BA85A481BD7D27A3AF46B86FDB36AFF /* JMBaseButton.m */,
+				0CDFA4F0177B47FB854A6D2F4A9E30BD /* JMBaseButtonConfig.h */,
+				0BC530A1394B3B8B9FE0100DC4617C1C /* JMBaseButtonConfig.m */,
+			);
+			name = BaseButton;
+			path = BaseButton;
+			sourceTree = "<group>";
+		};
+		32CBC3C37EBB91B9D481FD20E35BF161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64902A98D10AF34FD9D0B824A702E62C /* LSTCategory.framework */,
+				E8191B54BDD6476F0F1D04F73015D68B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		22EB6FA5DF243FB5FB96C0CB1CDAF2A8 /* Support Files */ = {
+		444452749296BDB45D5FA13A9521F5BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4988E54E1E5AB8DF4738FC913ED382B1 /* LSTKit.modulemap */,
-				DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */,
-				BE997AEE0E54AB68F3BD3DEBA5601F41 /* LSTKit-dummy.m */,
-				71054EDE99E906A7478CA525A38F186D /* LSTKit-Info.plist */,
-				71DAE23CA8FFF28459F6F2BF9FACCDC3 /* LSTKit-prefix.pch */,
-				BA8D361B131BEFE7032DEB6D63530BF6 /* LSTKit-umbrella.h */,
+				49E69A4A21C56035ABE99C83F792C3BF /* LSTCategory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		477BE2D8ABF43557E9C694490C6E5C46 /* JMButton */ = {
+			isa = PBXGroup;
+			children = (
+				897C2C4772A3A8DBC15F8CCB89A0E6D6 /* JMBadgeValue.h */,
+				DDAFF5775BCDFBFCE3FD31169C6BF5FD /* JMBadgeValue.m */,
+				A8B0AD01D53CDE17CAAD30C90DA7F4E4 /* JMButton.h */,
+				ABC075AF056FCD7FFF3DEF03EADB1EF4 /* JMButton.m */,
+				CAA67B4AE58BC209CD939FD02D3731EA /* JMButtons.h */,
+				20D4A1954368813200CE827811D9E10E /* BaseButton */,
+				78519A4ACAE0BC1F3E929212F4D7505E /* BootstrapButton */,
+				EC3BD9FD78EE7D7D733006496AAB9746 /* JMCategroy */,
+				48AF0594A120DAE2C90940D3B040AA7D /* NumberButton */,
+				B4E309DB72B4219249D75B7D62259325 /* RadioButton */,
+				F3A29D4A44FA005CEB8501CDD7CEFDFC /* WaveButton */,
+			);
+			name = JMButton;
+			path = JMButton;
+			sourceTree = "<group>";
+		};
+		48AF0594A120DAE2C90940D3B040AA7D /* NumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				1085114F46EE93E39A14C56F8C9031CF /* JMNumberButton.h */,
+				9712FBB412432B749FE4176F1A1F9100 /* JMNumberButton.m */,
+				2E739C63307D79125F8118C37FF41828 /* JMNumberButtonConfig.h */,
+				54AF780877CB8B64EEFC1ACE627B8DF2 /* JMNumberButtonConfig.m */,
+			);
+			name = NumberButton;
+			path = NumberButton;
+			sourceTree = "<group>";
+		};
+		49E69A4A21C56035ABE99C83F792C3BF /* LSTCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A9362EB625E45822A9735AD1277FC5B1 /* Code */,
+				CDF608ED411CA144E193357123D107D7 /* Support Files */,
+			);
+			name = LSTCategory;
+			path = LSTCategory;
+			sourceTree = "<group>";
+		};
+		78519A4ACAE0BC1F3E929212F4D7505E /* BootstrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				5794D21A93344E0C404F9D4A0D6BF4BE /* JMBootstrapButton.h */,
+				2560AC7C61116D3A9B19A2E798DF04E7 /* JMBootstrapButton.m */,
+				1747B6888C2BD7108EAA76B526166469 /* JMBootstrapButtonConfig.h */,
+				3C89F3ECED09CCD0CC393856D9DFC954 /* JMBootstrapButtonConfig.m */,
+			);
+			name = BootstrapButton;
+			path = BootstrapButton;
+			sourceTree = "<group>";
+		};
+		7CCB90F47959F5BE7C6B36E99512747F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3282C7D6CAD2137E64481DE2BE81663F /* LSTKit.modulemap */,
+				3FF2CBD20CBB5F8D1D9912E9BEEA8613 /* LSTKit.xcconfig */,
+				720DEFDE47F5EB6E39F4AE4015A4BDD3 /* LSTKit-dummy.m */,
+				A656699E2431D2299C7D03B2D2DE4AEA /* LSTKit-Info.plist */,
+				41AA433FA43E77D704EC20B2FC95920C /* LSTKit-prefix.pch */,
+				7B1344628984440646EDD2D580986F20 /* LSTKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LSTKit";
 			sourceTree = "<group>";
 		};
-		5F4E980FBCF0E5A927BC1E6DF70383B1 /* Code */ = {
+		7FDA801D9DEB42A2AAFB85458C683F18 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				456B242B12A7387C2C07699DC4212B91 /* LSTWeakScriptMessageDelegate.h */,
-				A938F9EB0C07021A6A194F956DA56AAA /* LSTWeakScriptMessageDelegate.m */,
+				B71E206DC60C624296432E9FF2A37777 /* LSTWeakScriptMessageDelegate.h */,
+				F2A0016A6550E352581DA975577714AD /* LSTWeakScriptMessageDelegate.m */,
+				996BD15C85FFBF6BD5644A36096345A6 /* LSTButton */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -144,24 +356,69 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A55B16A51305D78012D10878ABF22CF5 /* Pod */ = {
+		996BD15C85FFBF6BD5644A36096345A6 /* LSTButton */ = {
 			isa = PBXGroup;
 			children = (
-				7736CE7B7BE6DD33C303D4E0E8192C8D /* LICENSE */,
-				55ABA7AC4E3619C76CD72BEB6CD837FA /* LSTKit.podspec */,
-				79F94CE10DE50DFB31022A177C59A6F3 /* README.md */,
+				358F5E5A0781ECFDE2713D276CE0AA2D /* LSTButton.h */,
+				98D041608DC8E07B540017167CC75119 /* LSTButton.m */,
+				477BE2D8ABF43557E9C694490C6E5C46 /* JMButton */,
 			);
-			name = Pod;
+			name = LSTButton;
+			path = LSTKit/Classes/Code/LSTButton;
 			sourceTree = "<group>";
 		};
-		B5E62C5E10D5968BE28C43827F5E3D4D /* Products */ = {
+		A6912828D2E7AFEABA8C29CDEEADD052 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* LSTCategory.framework */,
 				F96BB066C683338E63B694CE09A2AE85 /* LSTKit.framework */,
 				474C45E1F8D0EF2783F8CD1504F4C7BC /* Pods_LSTKit_Example.framework */,
 				36FF659603727FCBFE4BADFD865296DD /* Pods_LSTKit_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A9362EB625E45822A9735AD1277FC5B1 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				8C9DEC4820E4CEC0B80AFE579B95AA65 /* CALayer+LSTLayer.h */,
+				16C9299CFB464C4918F8F785230F6E21 /* CALayer+LSTLayer.m */,
+				8893AF59C4598BE9B3BE932FB901F83F /* NSArray+LSTArray.h */,
+				146590192CB58CA820124BCAA3040709 /* NSArray+LSTArray.m */,
+				51D150B096A5FC1E1E3830C130582545 /* NSObject+LSTObject.h */,
+				055B8EB05E714E287515EEF6FAD6FA1A /* NSObject+LSTObject.m */,
+				B82C8C0459E0410994E16950AC1AA7A0 /* NSString+LSTString.h */,
+				01DF668DBC9FF3D8ADE8986C9AE3D59E /* NSString+LSTString.m */,
+				F8012C7BF2A960292E6A4A57077C671B /* UIColor+LSTColor.h */,
+				6EC68F6A8AD2872F87EFC111408838A4 /* UIColor+LSTColor.m */,
+				67DA0D932C14CC913B889606FF1488DE /* UIImage+LSTImage.h */,
+				CD2F5DCF84EC5036E89AAEC143AF03C5 /* UIImage+LSTImage.m */,
+				581A415E0F644C54CBF5875387B43D0E /* UIProgressView+LSTWebViewProgress.h */,
+				4970E2964AE229CD2B78A29AAF2066BA /* UIProgressView+LSTWebViewProgress.m */,
+				27E6F068BB7452B6939E18E69A2CFDB0 /* UIView+LSTView.h */,
+				F05A8FC76EA380EFFA4BDCC3C809D6D8 /* UIView+LSTView.m */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		ABB801B7C8AF5F0801FAF1BFC69B8E1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2B8CA29006C366A706D14721868ADF44 /* LICENSE */,
+				31F5C8B6B0B843210CA98E061C50ADCF /* LSTKit.podspec */,
+				A5FE2284E5E5BCCC6C286D6344F1C12D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B4E309DB72B4219249D75B7D62259325 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				F43828A22A15C1EDE67EFDD114910D47 /* JMRadioButton.h */,
+				48B7BC25CEA6DB0E945D6F9296C305CA /* JMRadioButton.m */,
+			);
+			name = RadioButton;
+			path = RadioButton;
 			sourceTree = "<group>";
 		};
 		C1CF2ED92E27F868C47B279F68BEC031 /* Pods-LSTKit_Tests */ = {
@@ -180,35 +437,41 @@
 			path = "Target Support Files/Pods-LSTKit_Tests";
 			sourceTree = "<group>";
 		};
-		CF1408CF629C7361332E53B88F7BD30C = {
+		C6B7E99D8150EFC35FF597D00F75FE8B /* LSTKit */ = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F9D4D4D973F8E478280529E1A557A8B8 /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				B5E62C5E10D5968BE28C43827F5E3D4D /* Products */,
-				85794C93665E95C920C3982B433CFEEF /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D250E4248F2DF375B48690A890CCEF94 /* LSTKit */ = {
-			isa = PBXGroup;
-			children = (
-				5F4E980FBCF0E5A927BC1E6DF70383B1 /* Code */,
-				A55B16A51305D78012D10878ABF22CF5 /* Pod */,
-				22EB6FA5DF243FB5FB96C0CB1CDAF2A8 /* Support Files */,
+				7FDA801D9DEB42A2AAFB85458C683F18 /* Code */,
+				ABB801B7C8AF5F0801FAF1BFC69B8E1E /* Pod */,
+				7CCB90F47959F5BE7C6B36E99512747F /* Support Files */,
 			);
 			name = LSTKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		CDF608ED411CA144E193357123D107D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				1965A0593BBC77836383625CE55B1E35 /* LSTCategory.modulemap */,
+				237D0E5E32D1D648042AD11BF6D48259 /* LSTCategory.xcconfig */,
+				BBF2F980CB2A8B255DCEB04772D38A04 /* LSTCategory-dummy.m */,
+				FE1D272E15C3E4DF0D7130AB68216DA4 /* LSTCategory-Info.plist */,
+				B38EF9A6F8656C20BAB74BF3D4E18F50 /* LSTCategory-prefix.pch */,
+				521497E5AE8B49A8113789A601CE3F81 /* LSTCategory-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/LSTCategory";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F9D4D4D973F8E478280529E1A557A8B8 /* Development Pods */,
+				32CBC3C37EBB91B9D481FD20E35BF161 /* Frameworks */,
+				444452749296BDB45D5FA13A9521F5BE /* Pods */,
+				A6912828D2E7AFEABA8C29CDEEADD052 /* Products */,
+				85794C93665E95C920C3982B433CFEEF /* Targets Support Files */,
+			);
 			sourceTree = "<group>";
 		};
 		E4A7375353DC56C79DA1CE8014826A9F /* Pods-LSTKit_Example */ = {
@@ -228,10 +491,48 @@
 			path = "Target Support Files/Pods-LSTKit_Example";
 			sourceTree = "<group>";
 		};
+		E8191B54BDD6476F0F1D04F73015D68B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29402B8D5C00FEC6CD635E41B7398669 /* Foundation.framework */,
+				0BAA0290650557675CE450F8BC342BD6 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC3BD9FD78EE7D7D733006496AAB9746 /* JMCategroy */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4934385AF31D98629320A3383BEC1 /* JMBaseButton+CountDown.h */,
+				2EA1BF235F4C96D4D27D1943D755276E /* JMBaseButton+CountDown.m */,
+				94BA0447F72D931194E127FC8A19DC07 /* JMDefine.h */,
+				E2F923AA5A8E2EEC081F16E47DB878A4 /* JMRuntime.h */,
+				B802EAA53CB27090687C524FF5EB5F63 /* JMRuntime.m */,
+				74F7081BB121F7DC2E0F53E836E35F62 /* UIColor+JM.h */,
+				52187F75690733ACF90A8CE80D37116F /* UIColor+JM.m */,
+				49ACA8A31D33A65BF29496AA6CEF4B47 /* UIView+JM.h */,
+				E3E7C13A0175701D824C2FA523DDB053 /* UIView+JM.m */,
+			);
+			name = JMCategroy;
+			path = JMCategroy;
+			sourceTree = "<group>";
+		};
+		F3A29D4A44FA005CEB8501CDD7CEFDFC /* WaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				67A3B86BB2D29DC5C39707BB72E7AF0C /* JMWaveButton.h */,
+				29C46AC8F8BFFDD4E7999973C11AD8AC /* JMWaveButton.m */,
+				EC8D23114354D5F170C9C67C58996E87 /* JMWaveButtonConfig.h */,
+				DDF75E2E1C071214A5837746332CD660 /* JMWaveButtonConfig.m */,
+			);
+			name = WaveButton;
+			path = WaveButton;
+			sourceTree = "<group>";
+		};
 		F9D4D4D973F8E478280529E1A557A8B8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D250E4248F2DF375B48690A890CCEF94 /* LSTKit */,
+				C6B7E99D8150EFC35FF597D00F75FE8B /* LSTKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -239,20 +540,54 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		061DE360F91D8C7F7413806434FAD401 /* Headers */ = {
+		A944F92AE948B7113C5115E5CAA42912 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B92F16777B2A76570FCB3F661A21C8D /* LSTKit-umbrella.h in Headers */,
-				0EEA8849AC45184766AC2EEE59D831E0 /* LSTWeakScriptMessageDelegate.h in Headers */,
+				680785252C65C5543D27DEA56B6C3C00 /* CALayer+LSTLayer.h in Headers */,
+				06A4F03C26714938C068F2B59695AE56 /* LSTCategory-umbrella.h in Headers */,
+				860BA2799AA250FE5006E359681A247B /* NSArray+LSTArray.h in Headers */,
+				C442F149638A2000A756DE1B41CEFA66 /* NSObject+LSTObject.h in Headers */,
+				85E0D94529A1920D17C8718139E89E5E /* NSString+LSTString.h in Headers */,
+				374A9CE6F090F62E16405ABA861C2797 /* UIColor+LSTColor.h in Headers */,
+				047C3BAB423A2FF335CFC8DA385E6038 /* UIImage+LSTImage.h in Headers */,
+				0C02B3E20BF9A9F193793983B4E71665 /* UIProgressView+LSTWebViewProgress.h in Headers */,
+				E0747AEE02F372E4BADFC13CCD681D15 /* UIView+LSTView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9B05535CE90B94C8F989AFA3B464228 /* Headers */ = {
+		B7F84B4F82B5700ED62E42DE706E7751 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2245BBC466E80113763EAFDCF9B6A234 /* Pods-LSTKit_Example-umbrella.h in Headers */,
+				C676D8DF5499F926098CB0B3563B8ADB /* Pods-LSTKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE0A0656387E32634AD2E0844916CA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA7685FC3971C0C77101056D466FFE2 /* JMBadgeValue.h in Headers */,
+				4097D860053AD91F50C98B3C8CCDE7E2 /* JMBaseButton+CountDown.h in Headers */,
+				D182208623C9CA21A2E018590DABD755 /* JMBaseButton.h in Headers */,
+				2B193D7A1B5673090D72058A377FD855 /* JMBaseButtonConfig.h in Headers */,
+				2E8E6BA237814D7C5C4700EB0B5CBCCD /* JMBootstrapButton.h in Headers */,
+				C47921D09C67B7CEB4503A1AE2FDCB7A /* JMBootstrapButtonConfig.h in Headers */,
+				D82AF25F13BDE5DFCE733DED1A7FAD81 /* JMButton.h in Headers */,
+				5411FD6C7E6FA0B8E2C557AF6EC3345B /* JMButtons.h in Headers */,
+				F689F4E3E4319C8D505E8282266A62D4 /* JMDefine.h in Headers */,
+				CDE92F39708A2FE2136530517DA6E6E6 /* JMNumberButton.h in Headers */,
+				7E6461B7B71151C57BB0FC19451570AF /* JMNumberButtonConfig.h in Headers */,
+				5B7A91DD90FFDDDB756D7DBAA21DED7C /* JMRadioButton.h in Headers */,
+				6F474F018BB4D96C07C3F4A3C4BAFF7C /* JMRuntime.h in Headers */,
+				5F44F3FC4CBD2D17CF85BF620C672CEC /* JMWaveButton.h in Headers */,
+				29CAA5AB92A16C6CD979FA61D657BD6B /* JMWaveButtonConfig.h in Headers */,
+				E80FD4AB4B99F1CA391A206EFE48FF30 /* LSTButton.h in Headers */,
+				A87EC751C9E35B5A4D912879D9E4275E /* LSTKit-umbrella.h in Headers */,
+				6E89700DE47096C41408BC4614BD1401 /* LSTWeakScriptMessageDelegate.h in Headers */,
+				742FA9AC2A3ABA5E7908B1C205789344 /* UIColor+JM.h in Headers */,
+				98352203ABD221AD694334A6F0A99788 /* UIView+JM.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,20 +604,39 @@
 /* Begin PBXNativeTarget section */
 		07D5A1E14242A20A290CEAC41C9625F3 /* LSTKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98F52E8FE988A9C653E1EE596B56E82D /* Build configuration list for PBXNativeTarget "LSTKit" */;
+			buildConfigurationList = 71488CBAD225283BDE5D2534D0BDDFB2 /* Build configuration list for PBXNativeTarget "LSTKit" */;
 			buildPhases = (
-				061DE360F91D8C7F7413806434FAD401 /* Headers */,
-				E06AF856577728E3521B64DC724F0291 /* Sources */,
-				261CF50E93CB75B22D92727F6B56A402 /* Frameworks */,
-				5F2BB2F125CD11E43C3C8C34461AE9B5 /* Resources */,
+				CEE0A0656387E32634AD2E0844916CA9 /* Headers */,
+				32F529FECA682762438F1B5E154A1E90 /* Sources */,
+				10F2C6F1BAB2DE74820DBA7B07292AE0 /* Frameworks */,
+				76BFA547D36A1F23B1A3823417D7D6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6A44C85D356C992040EF6BDD34BE89 /* PBXTargetDependency */,
+			);
+			name = LSTKit;
+			productName = LSTKit;
+			productReference = F96BB066C683338E63B694CE09A2AE85 /* LSTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95632358D0525A520467DAAD7ECCA44A /* LSTCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7995D6E726ECD78228AE6BB94AC3D10A /* Build configuration list for PBXNativeTarget "LSTCategory" */;
+			buildPhases = (
+				A944F92AE948B7113C5115E5CAA42912 /* Headers */,
+				3219AA8606E1D09C035A14DA2FAF9C03 /* Sources */,
+				7CA6569C931458D75046A8D2B3EC44D1 /* Frameworks */,
+				EFDCE7B0F2C93A433E8A7D8384BADC20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LSTKit;
-			productName = LSTKit;
-			productReference = F96BB066C683338E63B694CE09A2AE85 /* LSTKit.framework */;
+			name = LSTCategory;
+			productName = LSTCategory;
+			productReference = 4DAF4CB0AF7C8192E1CA81182CCEEBB7 /* LSTCategory.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D314F96CD1DA8B23B75886CC2D25D1B0 /* Pods-LSTKit_Tests */ = {
@@ -306,17 +660,18 @@
 		};
 		D3754840DBF6422BFE86513E83213C35 /* Pods-LSTKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9CBBAA004846F17E2D78B3F562D2962 /* Build configuration list for PBXNativeTarget "Pods-LSTKit_Example" */;
+			buildConfigurationList = 09D517FA2CFB90DEF14DD7516D2E34EE /* Build configuration list for PBXNativeTarget "Pods-LSTKit_Example" */;
 			buildPhases = (
-				C9B05535CE90B94C8F989AFA3B464228 /* Headers */,
-				723C0E085E76485893B521E0F09377AF /* Sources */,
-				4AE8A942868ACC404F81B6A89C6C8E5A /* Frameworks */,
-				D1C2BA26E05B7A8F78C427EFA28FAB27 /* Resources */,
+				B7F84B4F82B5700ED62E42DE706E7751 /* Headers */,
+				943E45A8F0B59B9E2255EDA418C86115 /* Sources */,
+				121D08461B7CD77BDFBFEF86D85E8072 /* Frameworks */,
+				C82AD28BCC0B72C6B26A9F6357B5CC1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				396319B576CC3428FF35A9C920BE05BE /* PBXTargetDependency */,
+				05C8CA2D9BA34272C222A059EA031B84 /* PBXTargetDependency */,
+				FBBA6BAD9B72C890BEBB235C19281F3E /* PBXTargetDependency */,
 			);
 			name = "Pods-LSTKit_Example";
 			productName = "Pods-LSTKit_Example";
@@ -340,10 +695,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B5E62C5E10D5968BE28C43827F5E3D4D /* Products */;
+			productRefGroup = A6912828D2E7AFEABA8C29CDEEADD052 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				95632358D0525A520467DAAD7ECCA44A /* LSTCategory */,
 				07D5A1E14242A20A290CEAC41C9625F3 /* LSTKit */,
 				D3754840DBF6422BFE86513E83213C35 /* Pods-LSTKit_Example */,
 				D314F96CD1DA8B23B75886CC2D25D1B0 /* Pods-LSTKit_Tests */,
@@ -352,7 +708,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F2BB2F125CD11E43C3C8C34461AE9B5 /* Resources */ = {
+		76BFA547D36A1F23B1A3823417D7D6D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +722,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1C2BA26E05B7A8F78C427EFA28FAB27 /* Resources */ = {
+		C82AD28BCC0B72C6B26A9F6357B5CC1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDCE7B0F2C93A433E8A7D8384BADC20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,11 +739,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		723C0E085E76485893B521E0F09377AF /* Sources */ = {
+		3219AA8606E1D09C035A14DA2FAF9C03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC93ECA93223C3478A3ACA7A0C0889B /* Pods-LSTKit_Example-dummy.m in Sources */,
+				26764DA3085A267968E74E969CB598B5 /* CALayer+LSTLayer.m in Sources */,
+				2201BA06E801A8143F3A86DCD73F32DC /* LSTCategory-dummy.m in Sources */,
+				BA5A2D51E8F38B4F0CDDEFEB644FFA4C /* NSArray+LSTArray.m in Sources */,
+				AD7F31E0A7ED1575CF24198E2F0494DC /* NSObject+LSTObject.m in Sources */,
+				BC613F502A0EC5FF2B06A4FFF7F3DDE6 /* NSString+LSTString.m in Sources */,
+				B5DC07F6302ECE1C10C8B90AD8F25014 /* UIColor+LSTColor.m in Sources */,
+				ED327566EAABC4BD218369D3BC42CF7F /* UIImage+LSTImage.m in Sources */,
+				9B999908B4E6A74DBDF61082975C2379 /* UIProgressView+LSTWebViewProgress.m in Sources */,
+				5920EAEFA77722F1D17BC1EF6B57BA67 /* UIView+LSTView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F529FECA682762438F1B5E154A1E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F4C0291271B571756B34FED6AF1DA1 /* JMBadgeValue.m in Sources */,
+				2596B8461BDC499BDBAAA82BE11741BF /* JMBaseButton+CountDown.m in Sources */,
+				C3C2A9021F65E52604A7352439131A06 /* JMBaseButton.m in Sources */,
+				B4361B7062612217968FC8B5554A5215 /* JMBaseButtonConfig.m in Sources */,
+				85AB1A564249400D7DA50DDE2306C264 /* JMBootstrapButton.m in Sources */,
+				5505A3C704FC212E0105F954362CC85E /* JMBootstrapButtonConfig.m in Sources */,
+				250DE3D9FCC00DCCDC988E91640BC201 /* JMButton.m in Sources */,
+				0898CFF774BAEE1DEBAB612B9D2A833E /* JMNumberButton.m in Sources */,
+				8234276FA43E2D7AEAB28460D475DAAF /* JMNumberButtonConfig.m in Sources */,
+				AE7DC5CC90CA3D6B82DC642C5481C589 /* JMRadioButton.m in Sources */,
+				2E19015D67C89BF88930C57443976701 /* JMRuntime.m in Sources */,
+				BE82215F5563F286E3B67685A0941915 /* JMWaveButton.m in Sources */,
+				1E3B444A47D89D8F5B18F4A5E2E8166D /* JMWaveButtonConfig.m in Sources */,
+				C2F3C8B3947CD9773804C647D09D4140 /* LSTButton.m in Sources */,
+				093DD3B2620AA0A71954FE7DEE06C8D9 /* LSTKit-dummy.m in Sources */,
+				4687B1A6395D4F16800D9B2B073D3D30 /* LSTWeakScriptMessageDelegate.m in Sources */,
+				F7001C550477AAE93DA94B13E6620199 /* UIColor+JM.m in Sources */,
+				3D589560437EBB55F4E06AC97FDA3E98 /* UIView+JM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,23 +788,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E06AF856577728E3521B64DC724F0291 /* Sources */ = {
+		943E45A8F0B59B9E2255EDA418C86115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0FEBD128FA20ADB0B6B517D192808DF /* LSTKit-dummy.m in Sources */,
-				0227B83BB0AC8E750BBA5DF789B3DD70 /* LSTWeakScriptMessageDelegate.m in Sources */,
+				B0FA0E7239699E67FAA0132DE890948C /* Pods-LSTKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		396319B576CC3428FF35A9C920BE05BE /* PBXTargetDependency */ = {
+		05C8CA2D9BA34272C222A059EA031B84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LSTKit;
-			target = 07D5A1E14242A20A290CEAC41C9625F3 /* LSTKit */;
-			targetProxy = B43254BB65E5E3FB3F3082B18D9B87EE /* PBXContainerItemProxy */;
+			name = LSTCategory;
+			target = 95632358D0525A520467DAAD7ECCA44A /* LSTCategory */;
+			targetProxy = 76577021753D37E15FE68520BCBF2E85 /* PBXContainerItemProxy */;
 		};
 		75B010E2804FAD38A7B77D5C850C7E9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -416,9 +811,120 @@
 			target = D3754840DBF6422BFE86513E83213C35 /* Pods-LSTKit_Example */;
 			targetProxy = 268014412A2762A0BB8DF63DB92BE6DF /* PBXContainerItemProxy */;
 		};
+		EB6A44C85D356C992040EF6BDD34BE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LSTCategory;
+			target = 95632358D0525A520467DAAD7ECCA44A /* LSTCategory */;
+			targetProxy = A0E19A3E75CC58A45A11CEE7028B815F /* PBXContainerItemProxy */;
+		};
+		FBBA6BAD9B72C890BEBB235C19281F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LSTKit;
+			target = 07D5A1E14242A20A290CEAC41C9625F3 /* LSTKit */;
+			targetProxy = CE7F959057DD1F7A2078D680B8664C77 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03C40D3B3DCFF8D3765715FF85D25D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF2CBD20CBB5F8D1D9912E9BEEA8613 /* LSTKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTKit/LSTKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSTKit/LSTKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSTKit/LSTKit.modulemap";
+				PRODUCT_MODULE_NAME = LSTKit;
+				PRODUCT_NAME = LSTKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B4BE3C0B072A81751E0225AC9EF828B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E18F60F78338C1286BA7D5F6DFF4A79 /* Pods-LSTKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E401AE5377DAE50E1B542B5DC0C123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA67C785929EF7E0898BD9D503C22CD /* Pods-LSTKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -478,6 +984,68 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		61EEACBB53430ABD34F38546224FC297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF2CBD20CBB5F8D1D9912E9BEEA8613 /* LSTKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTKit/LSTKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSTKit/LSTKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSTKit/LSTKit.modulemap";
+				PRODUCT_MODULE_NAME = LSTKit;
+				PRODUCT_NAME = LSTKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E4E90A3DB38DDC1323E99E324012E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237D0E5E32D1D648042AD11BF6D48259 /* LSTCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTCategory/LSTCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSTCategory/LSTCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSTCategory/LSTCategory.modulemap";
+				PRODUCT_MODULE_NAME = LSTCategory;
+				PRODUCT_NAME = LSTCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -543,42 +1111,9 @@
 			};
 			name = Debug;
 		};
-		81113620DF90B5321F214157929CC9A9 /* Debug */ = {
+		87C7588106E93DD23AA317BFBDDF6F7C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E18F60F78338C1286BA7D5F6DFF4A79 /* Pods-LSTKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CC95015C3D0D381EA8063418DA29AAF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */;
+			baseConfigurationReference = 237D0E5E32D1D648042AD11BF6D48259 /* LSTCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -589,14 +1124,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSTKit/LSTKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSTKit/LSTKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LSTCategory/LSTCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSTCategory/LSTCategory-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSTKit/LSTKit.modulemap";
-				PRODUCT_MODULE_NAME = LSTKit;
-				PRODUCT_NAME = LSTKit;
+				MODULEMAP_FILE = "Target Support Files/LSTCategory/LSTCategory.modulemap";
+				PRODUCT_MODULE_NAME = LSTCategory;
+				PRODUCT_NAME = LSTCategory;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -642,71 +1177,6 @@
 			};
 			name = Release;
 		};
-		E70C2E9D4A9BD5E51074FB29064BEA4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AA67C785929EF7E0898BD9D503C22CD /* Pods-LSTKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSTKit_Example/Pods-LSTKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EEE1FA16F9C7314F5A3269E630425F7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCB0A8AD0D708E18E367EAEA2F55AB75 /* LSTKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSTKit/LSTKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSTKit/LSTKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSTKit/LSTKit.modulemap";
-				PRODUCT_MODULE_NAME = LSTKit;
-				PRODUCT_NAME = LSTKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FE856DD8681C4AA9124415F3AEDDCA49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C14E50117E66F9F99E33A42BCA5F2892 /* Pods-LSTKit_Tests.debug.xcconfig */;
@@ -743,6 +1213,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		09D517FA2CFB90DEF14DD7516D2E34EE /* Build configuration list for PBXNativeTarget "Pods-LSTKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4BE3C0B072A81751E0225AC9EF828B /* Debug */,
+				3E401AE5377DAE50E1B542B5DC0C123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1E988A4977EA140A94F9DF957EB09418 /* Build configuration list for PBXNativeTarget "Pods-LSTKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,20 +1240,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98F52E8FE988A9C653E1EE596B56E82D /* Build configuration list for PBXNativeTarget "LSTKit" */ = {
+		71488CBAD225283BDE5D2534D0BDDFB2 /* Build configuration list for PBXNativeTarget "LSTKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEE1FA16F9C7314F5A3269E630425F7E /* Debug */,
-				CC95015C3D0D381EA8063418DA29AAF0 /* Release */,
+				61EEACBB53430ABD34F38546224FC297 /* Debug */,
+				03C40D3B3DCFF8D3765715FF85D25D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9CBBAA004846F17E2D78B3F562D2962 /* Build configuration list for PBXNativeTarget "Pods-LSTKit_Example" */ = {
+		7995D6E726ECD78228AE6BB94AC3D10A /* Build configuration list for PBXNativeTarget "LSTCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81113620DF90B5321F214157929CC9A9 /* Debug */,
-				E70C2E9D4A9BD5E51074FB29064BEA4E /* Release */,
+				6E4E90A3DB38DDC1323E99E324012E04 /* Debug */,
+				87C7588106E93DD23AA317BFBDDF6F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
