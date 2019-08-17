@@ -13,8 +13,8 @@
 /**
  *  保存键值至钥匙串
  *
- *  @param service <#service description#>
- *  @param data    <#data description#>
+ *  @param service 保存标识
+ *  @param data    保存的对象
  */
 + (void)save_key:(NSString *)service data_values:(id)data;
 /**

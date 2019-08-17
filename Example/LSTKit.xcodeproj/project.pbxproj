@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31151A622305068E001FEE13 /* LSTKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 31151A612305068E001FEE13 /* LSTKeyChain.m */; };
+		31151A66230531B0001FEE13 /* GVUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 31151A64230531B0001FEE13 /* GVUserDefaults.m */; };
 		313D6EA6230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D6EA5230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m */; };
 		313D6ED523040E5200A7E1B8 /* JMRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D6EAF23040E5200A7E1B8 /* JMRadioButton.m */; };
 		313D6ED623040E5200A7E1B8 /* JMBootstrapButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D6EB323040E5200A7E1B8 /* JMBootstrapButtonConfig.m */; };
@@ -57,6 +58,8 @@
 /* Begin PBXFileReference section */
 		31151A602305068E001FEE13 /* LSTKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTKeyChain.h; sourceTree = "<group>"; };
 		31151A612305068E001FEE13 /* LSTKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTKeyChain.m; sourceTree = "<group>"; };
+		31151A64230531B0001FEE13 /* GVUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVUserDefaults.m; sourceTree = "<group>"; };
+		31151A65230531B0001FEE13 /* GVUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVUserDefaults.h; sourceTree = "<group>"; };
 		313D6EA4230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
 		313D6EA5230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
 		313D6EAC23040E5200A7E1B8 /* LSTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTButton.h; sourceTree = "<group>"; };
@@ -160,9 +163,19 @@
 			path = LSTKeyChain;
 			sourceTree = "<group>";
 		};
+		31151A63230531A9001FEE13 /* GVUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				31151A65230531B0001FEE13 /* GVUserDefaults.h */,
+				31151A64230531B0001FEE13 /* GVUserDefaults.m */,
+			);
+			path = GVUserDefaults;
+			sourceTree = "<group>";
+		};
 		313D6EA3230407C300A7E1B8 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				31151A63230531A9001FEE13 /* GVUserDefaults */,
 				31151A5F23050564001FEE13 /* LSTKeyChain */,
 				313D6EAB23040E5200A7E1B8 /* LSTButton */,
 				313D6EA4230407CE00A7E1B8 /* LSTWeakScriptMessageDelegate.h */,
@@ -553,6 +566,7 @@
 				313D6ED523040E5200A7E1B8 /* JMRadioButton.m in Sources */,
 				313D6EE123040E5200A7E1B8 /* JMBaseButton+CountDown.m in Sources */,
 				313D6EDA23040E5200A7E1B8 /* JMWaveButton.m in Sources */,
+				31151A66230531B0001FEE13 /* GVUserDefaults.m in Sources */,
 				313D6EE323040E5200A7E1B8 /* JMBadgeValue.m in Sources */,
 				313D6ED623040E5200A7E1B8 /* JMBootstrapButtonConfig.m in Sources */,
 				6003F59E195388D20070C39A /* LSTAppDelegate.m in Sources */,
