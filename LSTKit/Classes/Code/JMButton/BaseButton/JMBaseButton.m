@@ -46,6 +46,11 @@
         [self setBackgroundColor:buttonConfig.backgroundColor];
         [self setBackgroundImage:buttonConfig.backgroundImage forState:UIControlStateNormal];
         self.titleLabel.font = buttonConfig.titleFont;
+        
+        [self addTarget:self action:@selector(touchedDown:event:) forControlEvents:UIControlEventTouchDown];
+        
+        [self addTarget:self action:@selector(pressedEvent:) forControlEvents:UIControlEventTouchDown];
+        [self addTarget:self action:@selector(unpressedEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
     }
     return self;
 }
@@ -93,6 +98,48 @@
         self.imageView.y = self.buttonConfig.imageOrigin.y;
     }
 }
+
+
+//按钮的压下事件 按钮缩小
+- (void)pressedEvent:(UIButton *)btn
+{
+    //缩放比例必须大于0，且小于等于1
+//    CGFloat scale = (_btnScaleRatio && _btnScaleRatio <=1.0) ? _btnScaleRatio : defaultScale;
+    CGFloat scale = 0.9;
+
+    [UIView animateWithDuration:0.5 animations:^{
+        btn.transform = CGAffineTransformMakeScale(scale, scale);
+    }];
+    [self layoutIfNeeded];
+    [self layoutSubviews];
+}
+//点击手势拖出按钮frame区域松开，响应取消
+- (void)cancelEvent:(UIButton *)btn
+{
+    [UIView animateWithDuration:0.5 animations:^{
+        btn.transform = CGAffineTransformMakeScale(1.0, 1.0);
+    } completion:^(BOOL finished) {
+        
+    }];
+    [self layoutIfNeeded];
+    [self layoutSubviews];
+}
+//按钮的松开事件 按钮复原 执行响应
+- (void)unpressedEvent:(UIButton *)btn
+{
+    [UIView animateWithDuration:0.5 animations:^{
+        btn.transform = CGAffineTransformMakeScale(1.0, 1.0);
+    } completion:^(BOOL finished) {
+        //执行动作响应
+//        if (self.clickBlock) {
+//            self.clickBlock();
+//        }
+    }];
+    [self layoutIfNeeded];
+    [self layoutSubviews];
+}
+
+
 
 
 @end
